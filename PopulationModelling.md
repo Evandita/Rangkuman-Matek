@@ -7,7 +7,7 @@ $$
 ## Contoh Persamaan jika **ada** pengaruh luar
 
 $$
-P' = rp + external_factor
+P' = rp + external\_factor
 $$
 
 dimana:
