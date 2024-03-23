@@ -1,13 +1,13 @@
 # Bentuk Umum
 
 $$
-P(t) = penambahan populasi - pengurangan populasi
+P(t) = penambahan Populasi - pengurangan Populasi
 $$
 
 ## Contoh Persamaan jika **ada** pengaruh luar
 
 $$
-P' = rp + external_factor
+P' = rp + externalFactor
 $$
 
 dimana:
