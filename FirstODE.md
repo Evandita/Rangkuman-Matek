@@ -57,10 +57,13 @@
 
 ### Linear Differential Equation
 
+{% raw %}
 
 $$
 y' + p(t)y = g(t)
 $$
+
+{% endraw %}
 
 Cara Penyelesaian:
 
