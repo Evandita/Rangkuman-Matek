@@ -67,13 +67,13 @@ Cara Penyelesaian:
 1. Mencari U(t)
 
 $$
-u(t)=e^{\int_{}^{}p(t)dt}
+u(t)=e^{\\int_{}^{}p(t)dt}
 $$
 
 2. Mengkalikan persamaan LDE dengan U(t)
 
 $$
-e^{\int_{}^{}p(t)dt} y' + e^{\int_{}^{}p(t)dt}p(t)y=e^{\int_{}^{}p(t)dt}g(t)
+e^{\\int_{}^{}p(t)dt} y' + e^{\\int_{}^{}p(t)dt}p(t)y=e^{\\int_{}^{}p(t)dt}g(t)
 $$
 
 3. Menyederhanakan persamaan
@@ -85,7 +85,7 @@ $$
 4. Mengintegralkan kedua sisi
 
 $$
-\int_{}^{} (u(t)y(t))'dt = \int_{}^{}u(t)g(t)dt
+\\int_{}^{} (u(t)y(t))'dt = \\int_{}^{}u(t)g(t)dt
 $$
 
 5. Menyelesaikan integral untuk mendapatkan **General Solution**
@@ -105,7 +105,7 @@ Cara Penyelesaian:
 1. Mengintegralkan kedua ruas
 
 $$
-\int N(y) dy = \int M(x)dx
+\\int N(y) dy = \\int M(x)dx
 $$
 
 2. Menyederhanakan persamaan untuk mendapatkan **General Solution**
@@ -117,7 +117,7 @@ $$
 ### Exact Differential Equations
 
 $$
-M(x,y)+N(x,y)\frac{dy}{dx}=0
+M(x,y)+N(x,y)\\frac{dy}{dx}=0
 $$
 
 Cara penyelesaian:
@@ -131,31 +131,31 @@ $$
 2. Mencari integral dari M(x,y) terhadap x
 
 $$
-\psi =\int M dx +h(y)
+\\psi =\\int M dx +h(y)
 $$
 
 3. Turunkan psi terhadap y
 
 $$
-\psi_{y} + h'(y) = N
+\\psi_{y} + h'(y) = N
 $$
 
 4. Cari nilai dari h'(y)
 
 $$
-h'(y) = N - \psi_{y}
+h'(y) = N - \\psi_{y}
 $$
 
 5. Cari nilai dari h(y)
 
 $$
-h(y) = \int h'(y)dy + k
+h(y) = \\int h'(y)dy + k
 $$
 
 6. Substitusi h(y) ke persamaan psi    
 
 $$
-\psi =\int M dx + \int h'(y)dy = c
+\\psi =\\int M dx + \\int h'(y)dy = c
 $$
 
 7. Substitusi Initial Value untuk mencari c
@@ -186,7 +186,7 @@ $$
 3. Substitusi `v` pada persamaan awal
 
 $$
-\frac{1}{1-n}v' + p(x)v=q(x)
+\\frac{1}{1-n}v' + p(x)v=q(x)
 $$
 
 4. Kalikan kedua ruas dengan (1-n)
