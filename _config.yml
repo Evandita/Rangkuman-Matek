@@ -2,7 +2,7 @@ plugins:
   - jekyll-relative-links
   - jekyll-remote-theme
 markdown: kramdown
-theme: jekyll-theme-minima
+theme: minima
 minima:
   skin: dark
 relative_links:
