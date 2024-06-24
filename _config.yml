@@ -2,8 +2,6 @@ plugins:
   - jekyll-relative-links
   - jekyll-remote-theme
 markdown: kramdown
-kramdown:
-    math_engine: mathjax
 theme: jekyll-theme-hacker
 relative_links:
   enabled: true
