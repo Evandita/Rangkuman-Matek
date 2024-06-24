@@ -1,7 +1,7 @@
 plugins:
   - jekyll-relative-links
   - jekyll-remote-theme
-theme: jekyll-theme-hacker
+theme: jekyll-theme-time-machine
 relative_links:
   enabled: true
   collections: true
