@@ -1,5 +1,10 @@
 plugins:
   - jekyll-relative-links
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
 relative_links:
   enabled: true
   collections: true
