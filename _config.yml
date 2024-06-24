@@ -3,7 +3,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 markdown: GFM
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+remote_theme: mmistakes/minimal-mistakes
 relative_links:
   enabled: true
   collections: true
